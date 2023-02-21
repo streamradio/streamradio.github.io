@@ -82,6 +82,16 @@ margin: 0 auto;
 }
 
 
+/*Añadido*/
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;  
+ }
+
+
 @media (max-width: 768px) {
         body {
             padding-top: 70px 20px 0px;
