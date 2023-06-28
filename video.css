@@ -73,39 +73,39 @@
 
 @media screen and (min-width: 1200px) {
     video {
-        width: 620px;
-        height: 620px;
+        width: 720px;
+        height: 720px;
     }
 }
 
 /* Estilos para dispositivos con un ancho de pantalla entre 992px y 1199px */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     video {
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 600px;
     }
 }
 
 /* Estilos para dispositivos con un ancho de pantalla entre 768px y 991px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     video {
-        width: 380px;
-        height: 380px;
+        width: 480px;
+        height: 480px;
     }
 }
 
 /* Estilos para dispositivos con un ancho de pantalla entre 576px y 767px */
 @media screen and (min-width: 576px) and (max-width: 767px) {
     video {
-        width: 260px;
-        height: 260px;
+        width: 360px;
+        height: 360px;
     }
 }
 
 /* Estilos para dispositivos con un ancho de pantalla menor a 575px */
 @media screen and (max-width: 575px) {
     video {
-        width: 160px;
-        height: 160px;
+        width: 100%;
+        height: auto;
     }
 }
