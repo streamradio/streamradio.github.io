@@ -73,16 +73,16 @@
 
 @media screen and (min-width: 1200px) {
     video {
-        width: 720px;
-        height: 720px;
+        width: 620px;
+        height: 620px;
     }
 }
 
 /* Estilos para dispositivos con un ancho de pantalla entre 992px y 1199px */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     video {
-        width: 600px;
-        height: 600px;
+        width: 520px;
+        height: 520px;
     }
 }
 
@@ -97,8 +97,8 @@
 /* Estilos para dispositivos con un ancho de pantalla entre 576px y 767px */
 @media screen and (min-width: 576px) and (max-width: 767px) {
     video {
-        width: 360px;
-        height: 360px;
+        width: 480px;
+        height: 480px;
     }
 }
 
