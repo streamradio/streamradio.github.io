@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stream Radio</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="video.css"
     <script src="https://kit.fontawesome.com/a9e43fc4b9.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -36,11 +37,18 @@
                 </ul>
         </nav>
    </header>
-   <header>
-    
-   </header>
+   
    <main>        
     <iframe src="https://streamradio.ddns.net/public/stream_radio/embed" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>
+   </main>
+
+   <main>
+     <div class="video-container">
+        <video width="480" height="480" controls>
+            <source src="video.mp4" type="video/mp4">
+            el navegador no soporta video HTML5
+        </video>
+     </div>
    </main>
    <footer class="footer">
     <div id="idee8b81c1a9c55" a='{"t":"g7bs","v":"1.2","lang":"es","locs":[571],"ssot":"c","sics":"ds","cbkg":"rgba(25,23,23,0.675)","cfnt":"rgb(255,255,255)","cend":"rgba(0,0,0,0.11)","slis":35,"slfs":17}'>Fuente de datos meteorológicos: <a href="https://sharpweather.com/es/tiempo_santa_fe/hoy/">Santa Fe pronóstico del tiempo para hoy</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=idee8b81c1a9c55"></script>
