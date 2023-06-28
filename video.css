@@ -105,7 +105,7 @@
 /* Estilos para dispositivos con un ancho de pantalla menor a 575px */
 @media screen and (max-width: 575px) {
     video {
-        width: 100%;
-        height: auto;
+        width: 160px;
+        height: 160px;
     }
 }
